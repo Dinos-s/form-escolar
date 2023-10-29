@@ -9,10 +9,10 @@ export interface Params {
     [key: string]: any;
 }
 
-
 @Injectable({
     providedIn: 'root'
 })
+
 export class SharedService {
 
     users: Array<{ value: string, label: string }> = [];
