@@ -21,7 +21,6 @@ export interface ErrorResponse {
 @Injectable({
     providedIn: 'root'
 })
-
 export class EvaluationService {
 
     private axiosClient: AxiosInstance;

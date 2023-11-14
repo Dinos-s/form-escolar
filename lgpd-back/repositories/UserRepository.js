@@ -2,9 +2,9 @@ import User from "../models/User.js";
 
 //1- salvar usuario
 const saveUser = async (UserModel) => {
-    const save = await User.create(UserModel);
-    return save;
-  }
+  const save = await User.create(UserModel);
+  return save;
+}
   
   //2- buscar todos usuarios
   const getAllUsers = async () => {

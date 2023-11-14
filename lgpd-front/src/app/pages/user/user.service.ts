@@ -19,7 +19,6 @@ export interface ErrorResponse {
 }
 
 @Injectable({ providedIn: 'root' })
-
 export class UserService {
   private axiosClient: AxiosInstance;
   private errorHandler: ErrorHandler;
